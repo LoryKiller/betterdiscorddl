@@ -1,4 +1,4 @@
-
+#version=0.2
 import requests
 import os
 import glob
@@ -30,3 +30,4 @@ while True:
     if glob.glob(path):
         break
 os.startfile(path)
+
